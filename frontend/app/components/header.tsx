@@ -18,7 +18,7 @@ export default function Header() {
 
             {/* GitHub Button */}
             <Link
-                href="https://github.com/your-username/your-repo" // <- Change this to your real GitHub repo link
+                href="https://github.com/AhmedTalbii/Sudoku-Solver" // <- Change this to your real GitHub repo link
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white bg-black hover:bg-gray-800 px-4 py-2 rounded-lg transition"
