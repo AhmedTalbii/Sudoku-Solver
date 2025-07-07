@@ -130,7 +130,7 @@ export default function SudokuSolver() {
     const numericGrid = grid.map((row) =>
       row.map((cell) => parseInt(cell) || 0)
     );
-    const response = await fetch("https://sudoku-solver-production-b32f.up.railway.app", {
+    const response = await fetch("https://sudoku-solver-backend-swart.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
